@@ -6,45 +6,47 @@
 using namespace std;
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(0);
 
-    unordered_map<string, vector<string>> mp;
-    vector<vector<string>>                tmp {{}};
-    pair<string, string>                  p;
+    std::unordered_map<std::string, std::vector<std::string>> mp;
+    std::vector<std::vector<std::string>>                     tmp {{}};
+    std::pair<std::string, std::string>                       p;
 
-    string s;
-    while (cin >> s) {
+    std::string s;
+    while (std::cin >> s) {
         if (s == "{") tmp.push_back({});
         else if (s == "}") {
             for (int i = 0; i < tmp.back().size(); i++)
-                mp[tmp.back()[i]].pop_back();
+                mp.at(tmp.back()[i]).pop_back();
             tmp.pop_back();
         } else {
             int i = s.find('=');
-            p = make_pair(s.substr(0, i), s.substr(i + 1));
+            p = std::make_pair(s.substr(0, i), s.substr(i + 1));
             if ('0' <= *(p.second.end()-1) && *(p.second.end()-1) <= '9') {
                 if (mp.find(p.first) == mp.end()) {
                     mp.insert({p.first, {p.second}});
                     tmp.back().push_back(p.first);
                 } else {
-                    mp[p.first].push_back(p.second);
+                    mp.at(p.first).push_back(p.second);
                     tmp.back().push_back(p.first);
                 }
             } else {
                 if (mp.find(p.second) == mp.end()) {
                     mp.insert({p.second, {"0"}});
                     tmp.back().push_back(p.second);
-                } else if (mp[p.second].empty()) {
-                    mp[p.second].push_back("0");
+                } else if (mp.at(p.second).empty()) {
+                    mp.at(p.second).push_back("0");
                     tmp.back().push_back(p.second);
                 }
                 if (mp.find(p.first) == mp.end()) {
-                    mp.insert({p.first, {mp[p.second].back()}});
+                    mp.insert({p.first, {mp.at(p.second).back()}});
                     tmp.back().push_back(p.first);
                 } else {
-                    mp[p.first].push_back(mp[p.second].back());
+                    mp.at(p.first).push_back(mp.at(p.second).back());
                     tmp.back().push_back(p.first);
                 }
-                cout << mp[p.first].back() << "\n";
+                std::cout << mp.at(p.first).back() << "\n";
             }
         }
     }
