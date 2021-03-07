@@ -9,7 +9,7 @@
     -   Конфигурационный файл <sup>[\[solution\]](yandex/1.introduction-in-algorithms/config-file.cpp)</sub>
     -   Профессор Хаос <sup>[\[solution\]](yandex/1.introduction-in-algorithms/doctor-house.cpp)</sub>
     
--   **Сортировка**
+-   **Сортировка** <sup>[\[`*report`\]](yandex/2.sorting/*report.md)</sub>
     
     -   Коровы в стойла
     -   Число
