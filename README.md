@@ -11,10 +11,10 @@
     
 -   **Сортировка** <sup>[\[`*report`\]](yandex/2.sorting/*report.md)</sub>
     
-    -   Коровы в стойла
-    -   Число
-    -   Кошмар в замке
-    -   Магазин
+    -   Коровы в стойла <sup>[\[solution\]](yandex/2.sorting/cows-in-stalls.cpp)</sup>
+    -   Число <sup>[\[solution\]](yandex/2.sorting/number.cpp)</sup>
+    -   Кошмар в замке <sup>[\[solution\]](yandex/2.sorting/castle-nightmare.cpp)</sup>
+    -   Магазин <sup>[\[solution\]](yandex/2.sorting/store.cpp)</sup>
 
 -   **Структуры данных**
     
