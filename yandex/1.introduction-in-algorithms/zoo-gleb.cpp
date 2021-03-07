@@ -1,9 +1,7 @@
 //
-// Created by Bobur on 2/24/21.
+// Created by Bobur on 2.24.2021
 //
 #include <bits/stdc++.h>
-
-using namespace std;
 
 bool is_uppercase(char ch) {
     return 'A' <= ch && ch <= 'Z'; // A <= ch <= Z
@@ -15,14 +13,14 @@ bool are_same(char ch1, char ch2) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(0);
 
-    string s; cin >> s;
+    std::string s; std::cin >> s;
+    std::vector<std::pair<char, int>> stack(0);
 
     int indices[s.length() / 2];
 
-    vector<pair<char, int>> stack(0);
     int a = 0, b = 0;
     for (int i = 0; i < s.length(); i++) {
         if (!stack.empty() && are_same(stack.back().first, s[i])) {
@@ -30,18 +28,18 @@ int main() {
             else indices[stack.back().second] = b++;
             stack.pop_back();
         } else {
-            if (is_uppercase(s[i])) stack.push_back(make_pair(s[i], a++));
-            else stack.push_back(make_pair(s[i], b++));
+            if (is_uppercase(s[i])) stack.push_back(std::make_pair(s[i], a++));
+            else stack.push_back(std::make_pair(s[i], b++));
         }
     }
 
     if (stack.empty()) {
-        cout << "Possible\n";
+        std::cout << "Possible\n";
         for (int i = 0; i < s.length() / 2; i++) {
-            cout << indices[i] + 1 << " ";
+            std::cout << indices[i] + 1 << " ";
         }
     } else {
-        cout << "Impossible";
+        std::cout << "Impossible";
     }
-    return cout << "\n", 0;
+    return std::cout << "\n", 0;
 }
