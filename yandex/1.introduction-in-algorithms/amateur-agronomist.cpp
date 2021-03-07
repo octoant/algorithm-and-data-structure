@@ -1,35 +1,34 @@
 //
-// Created by Bobur on 2/23/21.
+// Created by Bobur on 2.23.2021
 //
 #include <bits/stdc++.h>
 
-using namespace std;
+int N;
+int iters = 1, prev = -1;
+int flower, length;
 
 int main() {
-    int n; cin >> n;
+    std::cin >> N;
 
-    int flower, iter = 1, prev = -1;
-    int j = 1;
-    int index, length = 0;
-
-    for (int i = 1; i <= n; i++) {
-        cin >> flower;
+    int j = 1, index;
+    for (int i = 1; i <= N; i++) {
+        std::cin >> flower;
         if (flower == prev) {
-            iter++;
-            if (iter == 3 && length < i - j) {
+            iters++;
+            if (iters == 3 && length < i - j) {
                 index = j;
                 length = i - j;
             }
         } else {
-            if (iter >= 3) j = i - 2;
-            iter = 1;
+            if (iters >= 3) j = i - 2;
             prev = flower;
+            iters = 1;
         }
     }
-    if (iter < 3 && length < n - j + 1) {
+    if (iters < 3 && length < N - j + 1) {
         index = j;
-        length = n - j + 1;
+        length = N - j + 1;
     }
-    cout << index << " " << index + length - 1 << "\n";
-    return 0;
+    std::cout << index << " " << index + length - 1;
+    return std::cout << "\n", 0;
 }
