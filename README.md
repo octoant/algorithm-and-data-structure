@@ -38,5 +38,9 @@
     -   Гиперпереход <sup>[\[solution-v1\]](timus/1.introduction-in-algorithms/hyperjump-v1.cpp)</sup> <sup>[\[solution-v2\]](timus/1.introduction-in-algorithms/hyperjump-v2.cpp)</sup>
     
 -   **Сортировка**
+    
+    -   Шпион <sup>[\[solution\]](timus/2.sorting/spy.cpp)</sup>
+    -   В стране дураков <sup>[\[solution\]](timus/2.sorting/country-of-fools.cpp)</sup>
+
 -   **Структуры данных**
 -   **Алгоритмы на графах**
