@@ -37,7 +37,7 @@
     -   Куча камней <sup>[\[solution\]](timus/1.introduction-in-algorithms/stone-pile.cpp)</sup>
     -   Гиперпереход <sup>[\[solution-v1\]](timus/1.introduction-in-algorithms/hyperjump-v1.cpp)</sup> <sup>[\[solution-v2\]](timus/1.introduction-in-algorithms/hyperjump-v2.cpp)</sup>
     
--   **Сортировка**
+-   **Сортировка**<sup>[\[`*report_ru`\]](timus/2.sorting/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/2.sorting/*report_en.md)</sup>
     
     -   Шпион <sup>[\[solution\]](timus/2.sorting/spy.cpp)</sup>
     -   В стране дураков <sup>[\[solution\]](timus/2.sorting/country-of-fools.cpp)</sup>
