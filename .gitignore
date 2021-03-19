@@ -1,3 +1,4 @@
 # Clion
 /cmake-build-debug
 *.out
+/CMakeLists.txt

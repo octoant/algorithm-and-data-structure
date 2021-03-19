@@ -2,14 +2,14 @@
 
 ### Задачи из [`contest.yandex.ru`](https://contest.yandex.ru/)
 
--   **Введение в алгоритмы** <sup>[\[`*report`\]](yandex/1.introduction-in-algorithms/*report.md)</sub>
+-   **Введение в алгоритмы** <sup>[\[`*report`\]](yandex/1.introduction-in-algorithms/*report.md)</sup>
     
-    -   Агроном-любитель <sup>[\[solution\]](yandex/1.introduction-in-algorithms/amateur-agronomist.cpp)</sub>
-    -   Зоопарк Глеба <sup>[\[solution\]](yandex/1.introduction-in-algorithms/zoo-gleb.cpp)</sub>
-    -   Конфигурационный файл <sup>[\[solution\]](yandex/1.introduction-in-algorithms/config-file.cpp)</sub>
-    -   Профессор Хаос <sup>[\[solution\]](yandex/1.introduction-in-algorithms/doctor-house.cpp)</sub>
+    -   Агроном-любитель <sup>[\[solution\]](yandex/1.introduction-in-algorithms/amateur-agronomist.cpp)</sup>
+    -   Зоопарк Глеба <sup>[\[solution\]](yandex/1.introduction-in-algorithms/zoo-gleb.cpp)</sup>
+    -   Конфигурационный файл <sup>[\[solution\]](yandex/1.introduction-in-algorithms/config-file.cpp)</sup>
+    -   Профессор Хаос <sup>[\[solution\]](yandex/1.introduction-in-algorithms/doctor-house.cpp)</sup>
     
--   **Сортировка** <sup>[\[`*report`\]](yandex/2.sorting/*report.md)</sub>
+-   **Сортировка** <sup>[\[`*report`\]](yandex/2.sorting/*report.md)</sup>
     
     -   Коровы в стойла <sup>[\[solution\]](yandex/2.sorting/cows-in-stalls.cpp)</sup>
     -   Число <sup>[\[solution\]](yandex/2.sorting/number.cpp)</sup>
@@ -32,7 +32,11 @@
 
 ### Задачи из [`acm.timus.ru`](https://acm.timus.ru/)
 
--   **Введение в алгоритмы**
+-   **Введение в алгоритмы**<sup>[\[`*report_ru`\]](timus/1.introduction-in-algorithms/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/1.introduction-in-algorithms/*report_en.md)</sup>
+    
+    -   Куча камней <sup>[\[solution\]](timus/1.introduction-in-algorithms/stone-pile.cpp)</sup>
+    -   Гиперпереход <sup>[\[solution-v1\]](timus/1.introduction-in-algorithms/hyperjump-v1.cpp)</sup> <sup>[\[solution-v2\]](timus/1.introduction-in-algorithms/hyperjump-v2.cpp)</sup>
+    
 -   **Сортировка**
 -   **Структуры данных**
 -   **Алгоритмы на графах**
