@@ -1,40 +1,52 @@
+//
+// Created by Bobur on 20.03.2021
+//
 #include <bits/stdc++.h>
 
-struct segment {
+class Segment {
+public:
+    int start, end, index;
 
-    int begin, end, len;
-    bool used;
-
-    segment(int begin, int end, bool used);
-};
-
-segment::segment(int begin, int end, bool used) {
-
-    this->begin = begin;
-    this->end   = end;
-    this->len   = std::abs(begin - end) + 1;
-    this->used  = used;
-}
-
-struct node {
-
-    node *left, *right;
-    segment *data;
-
-    node(node *left, node *right, segment *data);
-
-    void remove() {
-        if (left)  left->right = right;
-        if (right) right->left = left;
+    Segment(int start, int end, int index) {
+        this->start = start;
+        this->end   = end;
+        this->index = index;
     }
 };
 
-node::node(node *left, node *right, segment *data) {
+class Node {
+public:
+    Node *left, *right;
+    Segment *data;
 
-    this->left  = left;
-    this->data  = data;
-    this->right = right;
+    Node(Node *left, Node *right, Segment *data) {
+        this->left  = left;
+        this->right = right;
+        this->data  = data;
 
-    if (left)  left->right = this;
-    if (right) right->left = this;
+        this->collapse();
+    }
+
+    int length() {
+        return data->end - data->start + 1;
+    }
+    void remove() {
+        if (left)  left->right = right;
+        if (right) right->left = left;
+        delete data;
+    }
+
+private:
+    void collapse() {
+        if (left)  left->right = this;
+        if (right) right->left = this;
+    }
+};
+
+
+int main() {
+
+
+
+    return 0;
 }
