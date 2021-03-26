@@ -16,12 +16,12 @@
     -   Кошмар в замке <sup>[\[solution\]](yandex/2.sorting/castle-nightmare.cpp)</sup>
     -   Магазин <sup>[\[solution\]](yandex/2.sorting/store.cpp)</sup>
 
--   **Структуры данных**
+-   **Структуры данных** <sup>[\[`*report`\]](yandex/3.data-structure/*report.md)</sup>
     
-    -   Машинки
-    -   Гоблины и очереди
-    -   Менеджер памяти-1
-    -   Минимум на отрезке
+    -   Машинки <sup>[\[solution\]](yandex/3.data-structure/toy-cars.cpp)</sup>
+    -   Гоблины и очереди <sup>[\[solution\]](yandex/3.data-structure/goblins-and-queues.cpp)</sup>
+    -   Менеджер памяти-1 <sup>[\[solution\]](yandex/3.data-structure/memory-manager.cpp)</sup>
+    -   Минимум на отрезке <sup>[\[solution\]](yandex/3.data-structure/minimum-on-segment.cpp)</sup>
     
 -   **Алгоритмы на графах**
 
