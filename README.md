@@ -32,15 +32,19 @@
 
 ### Задачи из [`acm.timus.ru`](https://acm.timus.ru/)
 
--   **Введение в алгоритмы**<sup>[\[`*report_ru`\]](timus/1.introduction-in-algorithms/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/1.introduction-in-algorithms/*report_en.md)</sup>
+-   **Введение в алгоритмы** <sup>[\[`*report_ru`\]](timus/1.introduction-in-algorithms/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/1.introduction-in-algorithms/*report_en.md)</sup>
     
     -   Куча камней <sup>[\[solution\]](timus/1.introduction-in-algorithms/stone-pile.cpp)</sup>
     -   Гиперпереход <sup>[\[solution-v1\]](timus/1.introduction-in-algorithms/hyperjump-v1.cpp)</sup> <sup>[\[solution-v2\]](timus/1.introduction-in-algorithms/hyperjump-v2.cpp)</sup>
     
--   **Сортировка**<sup>[\[`*report_ru`\]](timus/2.sorting/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/2.sorting/*report_en.md)</sup>
+-   **Сортировка** <sup>[\[`*report_ru`\]](timus/2.sorting/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/2.sorting/*report_en.md)</sup>
     
     -   Шпион <sup>[\[solution\]](timus/2.sorting/spy.cpp)</sup>
     -   В стране дураков <sup>[\[solution\]](timus/2.sorting/country-of-fools.cpp)</sup>
 
--   **Структуры данных**
+-   **Структуры данных** <sup>[\[`*report_ru`\]](timus/3.data-structure/report_ru.md)</sup><sup>[\[`*report_en`\]](timus/3.data-structure/report_en.md)</sup>
+
+    -   Военные учения 2 <sup>[\[solution\]](timus/3.data-structure/war-games-2.cpp)</sup>
+    -   Белые полосы <sup>[\[solution\]](timus/3.data-structure/white-streaks.cpp)</sup>
+
 -   **Алгоритмы на графах**
