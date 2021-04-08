@@ -42,7 +42,7 @@
     -   Шпион <sup>[\[solution\]](timus/2.sorting/spy.cpp)</sup>
     -   В стране дураков <sup>[\[solution\]](timus/2.sorting/country-of-fools.cpp)</sup>
 
--   **Структуры данных** <sup>[\[`*report_ru`\]](timus/3.data-structure/report_ru.md)</sup><sup>[\[`*report_en`\]](timus/3.data-structure/report_en.md)</sup>
+-   **Структуры данных** <sup>[\[`*report_ru`\]](timus/3.data-structure/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/3.data-structure/*report_en.md)</sup>
 
     -   Военные учения 2 <sup>[\[solution\]](timus/3.data-structure/war-games-2.cpp)</sup>
     -   Белые полосы <sup>[\[solution\]](timus/3.data-structure/white-streaks.cpp)</sup>
