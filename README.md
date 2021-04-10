@@ -23,12 +23,13 @@
     -   Менеджер памяти-1 <sup>[\[solution\]](yandex/3.data-structure/memory-manager.cpp)</sup>
     -   Минимум на отрезке <sup>[\[solution\]](yandex/3.data-structure/minimum-on-segment.cpp)</sup>
     
--   **Алгоритмы на графах**
+-   **Алгоритмы на графах** <sup>[\[`*report`\]](yandex/4.graph-algorithms/*report.md)</sup>
 
-    -   Минимум на отрезке
-    -   Свинки-копилки
-    -   Долой списывание!
-    -   Авиаперелёты
+    -   Цивилизация <sup>[\[solution\]](yandex/4.graph-algorithms/civilization.cpp)</sup>
+    -   Свинки-копилки <sup>[\[solution\]](yandex/4.graph-algorithms/piggy-banks.cpp)</sup>
+    -   Долой списывание! <sup>[\[solution\]](yandex/4.graph-algorithms/down-with-cheating.cpp)</sup>
+    -   Авиаперелёты <sup>[\[solution\]](yandex/4.graph-algorithms/air-travel.cpp)</sup>
+    -   Матрички <sup>[\[solution\]](yandex/4.graph-algorithms/matrices.cpp)</sup>
 
 ### Задачи из [`acm.timus.ru`](https://acm.timus.ru/)
 
