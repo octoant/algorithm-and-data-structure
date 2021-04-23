@@ -48,4 +48,8 @@
     -   Военные учения 2 <sup>[\[solution\]](timus/3.data-structure/war-games-2.cpp)</sup>
     -   Белые полосы <sup>[\[solution\]](timus/3.data-structure/white-streaks.cpp)</sup>
 
--   **Алгоритмы на графах**
+-   **Алгоритмы на графах** <sup>[\[`*report_ru`\]](timus/4.graph-algorithms/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/4.graph-algorithms/*report_en.md)</sup>
+
+    -   Currency Exchange <sup>[\[solution\]](timus/4.graph-algorithms/currency-exchange.cpp)</sup>
+    -   Мобильные телеграфы <sup>[\[solution\]](timus/4.graph-algorithms/mobile-telegraphs.cpp)</sup>
+    
