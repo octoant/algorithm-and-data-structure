@@ -51,5 +51,5 @@
 -   **Алгоритмы на графах** <sup>[\[`*report_ru`\]](timus/4.graph-algorithms/*report_ru.md)</sup><sup>[\[`*report_en`\]](timus/4.graph-algorithms/*report_en.md)</sup>
 
     -   Currency Exchange <sup>[\[solution\]](timus/4.graph-algorithms/currency-exchange.cpp)</sup>
-    -   Мобильные телеграфы <sup>[\[solution\]](timus/4.graph-algorithms/mobile-telegraphs.cpp)</sup>
+    -   Мобильные телеграфы <sup>[\[solution\]](timus/4.graph-algorithms/mobile-telegraphs.cpp)</sup><sup>[\[optimized\]](timus/4.graph-algorithms/mobile-telegraphs%20%5Boptimized%5D.cpp)</sup>
     
