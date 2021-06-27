@@ -8,7 +8,8 @@
     -   Зоопарк Глеба <sup>[\[solution\]](yandex/1.introduction-in-algorithms/zoo-gleb.cpp)</sup>
     -   Конфигурационный файл <sup>[\[solution\]](yandex/1.introduction-in-algorithms/config-file.cpp)</sup>
     -   Профессор Хаос <sup>[\[solution\]](yandex/1.introduction-in-algorithms/doctor-house.cpp)</sup>
-    
+    -   Покер <sup>[\[solution\]](yandex/1.introduction-in-algorithms/poker.cpp)</sup>
+
 -   **Сортировка** <sup>[\[`*report`\]](yandex/2.sorting/*report.md)</sup>
     
     -   Коровы в стойла <sup>[\[solution\]](yandex/2.sorting/cows-in-stalls.cpp)</sup>
